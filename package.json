@@ -1,0 +1,53 @@
+{
+	"name": "blog",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "concurrently 'npm run prebuild' 'next dev'",
+		"start": "next start",
+		"build": "concurrently 'npm run prebuild' 'next build' && next-sitemap",
+		"build:static": "next build && next export",
+		"lint": "next lint",
+		"prebuild": "ts-node ./scripts/prebuild.ts"
+	},
+	"devDependencies": {
+		"@next/env": "^12.3.1",
+		"@next/eslint-plugin-next": "^12.3.1",
+		"@react-types/link": "^3.3.4",
+		"@types/node": "18.8.5",
+		"@types/nprogress": "^0.2.0",
+		"@types/react": "18.0.21",
+		"@types/react-linkify": "^1.0.1",
+		"@types/react-syntax-highlighter": "^15.5.5",
+		"@typescript-eslint/parser": "^5.27.0",
+		"autoprefixer": "^10.4.12",
+		"concurrently": "^7.4.0",
+		"eslint": "^8.16.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-plugin-v3xlabs": "^1.5.2",
+		"gray-matter": "^4.0.3",
+		"next-seo": "^5.6.0",
+		"next-sitemap": "^3.1.25",
+		"postcss": "^8.4.18",
+		"postcss-nesting": "^10.2.0",
+		"prettier": "^2.6.2",
+		"react-markdown": "^8.0.3",
+		"sharp": "^0.31.1",
+		"tailwindcss": "^3.1.8",
+		"ts-node": "^10.9.1",
+		"typescript": "^4.7.4"
+	},
+	"dependencies": {
+		"classnames": "^2.3.2",
+		"next": "^12.3.1",
+		"nprogress": "^0.2.0",
+		"react": "^18.2.0",
+		"react-aria": "^3.20.0",
+		"react-dom": "^18.2.0",
+		"react-icons": "^4.6.0",
+		"react-linkify": "1.0.0-alpha",
+		"react-stately": "^3.18.0",
+		"react-syntax-highlighter": "^15.5.0"
+	}
+}
