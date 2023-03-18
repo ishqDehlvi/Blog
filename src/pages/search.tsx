@@ -23,10 +23,10 @@ const HomePage: NextPage<PageProps> = (properties) => {
     return (
         <Layout>
             <NextSeo
-                title="robiot - Blog - Search"
-                description={"Search for blog posts on Robiot's blog"}
+                title="Inzemam - Blog - Search"
+                description={"Search for blog posts on Inzemam's blog"}
                 openGraph={{
-                    url: "https://blog.robiot.dev/search",
+                    url: "https://blog.inzi.me/search",
                     type: "image/png",
                     images: [
                         {
@@ -37,7 +37,7 @@ const HomePage: NextPage<PageProps> = (properties) => {
                             type: "image/png",
                         },
                     ],
-                    site_name: "Robiot's Blog",
+                    site_name: "Inzemam's Blog",
                 }}
                 twitter={{
                     handle: "@handle",

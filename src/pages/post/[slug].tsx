@@ -64,10 +64,10 @@ const PostSlugPage: NextPage<PageProps> = (properties) => {
     return (
         <Layout>
             <NextSeo
-                title={`robiot - ${properties.post.title}`}
+                title={`Inzemam - ${properties.post.title}`}
                 description={properties.post.description}
                 openGraph={{
-                    url: "https://blog.robiot.dev",
+                    url: "https://blog.inzi.me",
                     type: "image/png",
                     images: [
                         {
@@ -78,7 +78,7 @@ const PostSlugPage: NextPage<PageProps> = (properties) => {
                             type: "image/png",
                         },
                     ],
-                    site_name: "Robiot's Blog",
+                    site_name: "Inzemam's Blog",
                 }}
                 twitter={{
                     handle: "@handle",

@@ -16,9 +16,9 @@ const HomePage: NextPage<PageProps> = (properties) => {
     return (
         <Layout>
             <NextSeo
-                title="robiot - Blog"
+                title="Inzemam - Blog"
                 description={
-                    "Updates, writeups and tutorials are stuff that you can find on Robiot's blog"
+                    "Updates, writeups and tutorials are stuff that you can find on Inzemam's blog"
                 }
                 openGraph={{
                     url: "https://blog.inzi.me",

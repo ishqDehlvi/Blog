@@ -1,8 +1,8 @@
 # blog
 
-Source code for my [blog](https://blog.robiot.dev)
+Source code for my [blog](https://blog.inzi.me)
 
 \
-Copyright © 2022 Robiot. All rights reserved.
+Copyright © 2022 Inzemam. All rights reserved.
 
 Copying, modifying, and redistribuing this code is strictly prohibited by law.

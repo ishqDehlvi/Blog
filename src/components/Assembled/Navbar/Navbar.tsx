@@ -29,7 +29,7 @@ export const Navbar: FC = () => {
                                     href="https://inzi.me"
                                     className="text-xl hover:underline"
                                 >
-                                    robiot
+                                    Inzemam
                                 </Hyperlink>
                                 <span className="text-xl">/</span>
                                 <Hyperlink
