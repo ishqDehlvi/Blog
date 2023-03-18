@@ -8,12 +8,12 @@ export const Footer: FC = () => {
             <Container>
                 <div className="px-4 flex flex-col text-center gap-10 md:text-left md:flex-row md:justify-between">
                     <span className="text-gray-500">
-                        Copyright © 2022 Robiot. All rights reserved.
+                        Copyright © 2023 Inzemam. All rights reserved.
                     </span>
                     <span className="text-gray-500">
                         Made without ♥ in Next.js ;){" "}
                         <Hyperlink
-                            href="https://github.com/robiot/blog"
+                            href="https://github.com/ishqdehlvi/blog"
                             target="_blank"
                         >
                             Source Code

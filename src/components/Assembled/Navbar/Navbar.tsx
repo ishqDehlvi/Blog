@@ -20,13 +20,13 @@ export const Navbar: FC = () => {
                         <div className="flex gap-4 sm:gap-8 items-center">
                             <img
                                 src="/robot.png"
-                                alt="Robot"
+                                alt="Inzemam"
                                 className="h-14 rounded-full"
                             />
                             <div className="flex gap-2 sm:gap-4">
                                 <Hyperlink
                                     nodefaultstyle
-                                    href="https://robiot.dev"
+                                    href="https://inzi.me"
                                     className="text-xl hover:underline"
                                 >
                                     robiot

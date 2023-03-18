@@ -21,7 +21,7 @@ const HomePage: NextPage<PageProps> = (properties) => {
                     "Updates, writeups and tutorials are stuff that you can find on Robiot's blog"
                 }
                 openGraph={{
-                    url: "https://blog.robiot.dev",
+                    url: "https://blog.inzi.me",
                     type: "image/png",
                     images: [
                         {
@@ -32,7 +32,7 @@ const HomePage: NextPage<PageProps> = (properties) => {
                             type: "image/png",
                         },
                     ],
-                    site_name: "Robiot's Blog",
+                    site_name: "Inzemam's Blog",
                 }}
                 twitter={{
                     handle: "@handle",

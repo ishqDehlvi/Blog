@@ -5,11 +5,11 @@ import { FaGithub, FaGlobeEurope } from "react-icons/fa";
 export const ContactData = [
     {
         name: "Github",
-        to: "https://github.com/robiot",
+        to: "https://github.com/ishqdehlvi",
     },
     {
         name: "Website",
-        to: "https://robiot.dev",
+        to: "https://inzi.me",
     },
 ];
 
